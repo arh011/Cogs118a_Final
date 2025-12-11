@@ -26,33 +26,33 @@ adult_income,Adult Income,False,0.8,2,knn,0.8625,0.8372500104466128,0.83075,,,,,
 adult_income,Adult Income,False,0.8,3,log_reg,0.852,0.8489376316240986,0.85325,1.0,l2,liblinear,,,,
 adult_income,Adult Income,False,0.8,3,decision_tree,0.8645,0.8528123465159392,0.856,,,,10.0,10.0,,
 adult_income,Adult Income,False,0.8,3,knn,0.8616875,0.836124729205399,0.83925,,,,,,11.0,uniform
-breast_cancer,Breast Cancer (Diagnostic),False,0.2,1,log_reg,0.9734513274336283,0.9649122807017543,0.9736842105263158,0.1,l2,liblinear,,,,
-breast_cancer,Breast Cancer (Diagnostic),False,0.2,1,decision_tree,0.9380530973451328,0.8847795163584639,0.8991228070175439,,,,,10.0,,
-breast_cancer,Breast Cancer (Diagnostic),False,0.2,1,knn,0.9646017699115044,0.9471313418681838,0.9364035087719298,,,,,,3.0,uniform
-breast_cancer,Breast Cancer (Diagnostic),False,0.2,2,log_reg,1.0,0.9374110953058321,0.9714912280701754,10.0,l2,liblinear,,,,
-breast_cancer,Breast Cancer (Diagnostic),False,0.2,2,decision_tree,1.0,0.9381223328591749,0.9144736842105263,,,,,1.0,,
-breast_cancer,Breast Cancer (Diagnostic),False,0.2,2,knn,0.9734513274336283,0.9383594120436225,0.9407894736842105,,,,,,5.0,uniform
-breast_cancer,Breast Cancer (Diagnostic),False,0.2,3,log_reg,1.0,0.9736842105263158,0.9583333333333334,1.0,l2,liblinear,,,,
-breast_cancer,Breast Cancer (Diagnostic),False,0.2,3,decision_tree,0.9734513274336283,0.9118065433854907,0.8969298245614035,,,,,5.0,,
-breast_cancer,Breast Cancer (Diagnostic),False,0.2,3,knn,0.9734513274336283,0.956140350877193,0.9407894736842105,,,,,,3.0,uniform
-breast_cancer,Breast Cancer (Diagnostic),False,0.5,1,log_reg,0.9894366197183099,0.9823441582680105,0.9719298245614035,1.0,l2,liblinear,,,,
-breast_cancer,Breast Cancer (Diagnostic),False,0.5,1,decision_tree,0.9823943661971831,0.9329600597237775,0.9298245614035088,,,,5.0,1.0,,
-breast_cancer,Breast Cancer (Diagnostic),False,0.5,1,knn,0.9647887323943662,0.9682717431877567,0.9719298245614035,,,,,,5.0,uniform
-breast_cancer,Breast Cancer (Diagnostic),False,0.5,2,log_reg,0.9929577464788732,0.9718178424785368,0.9824561403508771,1.0,l2,liblinear,,,,
-breast_cancer,Breast Cancer (Diagnostic),False,0.5,2,decision_tree,0.9753521126760564,0.9049645390070923,0.9578947368421052,,,,,5.0,,
-breast_cancer,Breast Cancer (Diagnostic),False,0.5,2,knn,0.9577464788732394,0.9577827547592386,0.9649122807017544,,,,,,11.0,uniform
-breast_cancer,Breast Cancer (Diagnostic),False,0.5,3,log_reg,0.9929577464788732,0.9718924972004479,0.9754385964912281,1.0,l2,liblinear,,,,
-breast_cancer,Breast Cancer (Diagnostic),False,0.5,3,decision_tree,1.0,0.9262038073908174,0.9298245614035088,,,,,1.0,,
-breast_cancer,Breast Cancer (Diagnostic),False,0.5,3,knn,0.954225352112676,0.9401642403882046,0.9578947368421052,,,,,,11.0,uniform
-breast_cancer,Breast Cancer (Diagnostic),False,0.8,1,log_reg,0.9824175824175824,0.9824270942256303,0.9824561403508771,0.1,l2,liblinear,,,,
-breast_cancer,Breast Cancer (Diagnostic),False,0.8,1,decision_tree,1.0,0.9384367375392122,0.9298245614035088,,,,,1.0,,
-breast_cancer,Breast Cancer (Diagnostic),False,0.8,1,knn,0.9846153846153847,0.969196584175671,0.9385964912280702,,,,,,3.0,uniform
-breast_cancer,Breast Cancer (Diagnostic),False,0.8,2,log_reg,0.9846153846153847,0.9758336237945858,0.9912280701754386,0.1,l2,liblinear,,,,
-breast_cancer,Breast Cancer (Diagnostic),False,0.8,2,decision_tree,0.9604395604395605,0.9340507726269315,0.9298245614035088,,,,,10.0,,
-breast_cancer,Breast Cancer (Diagnostic),False,0.8,2,knn,0.978021978021978,0.9560532125014524,0.9649122807017544,,,,,,5.0,uniform
-breast_cancer,Breast Cancer (Diagnostic),False,0.8,3,log_reg,0.9912087912087912,0.9802195887068664,0.956140350877193,0.1,l2,liblinear,,,,
-breast_cancer,Breast Cancer (Diagnostic),False,0.8,3,decision_tree,0.9912087912087912,0.9318432671081678,0.9122807017543859,,,,5.0,1.0,,
-breast_cancer,Breast Cancer (Diagnostic),False,0.8,3,knn,0.9824175824175824,0.9670616939700244,0.9736842105263158,,,,,,3.0,uniform
+ckd_risk,Risk Factor Prediction of Chronic Kidney Disease (Binary),False,0.2,1,log_reg,1.0,1.0,0.9625,0.01,l2,liblinear,,,,
+ckd_risk,Risk Factor Prediction of Chronic Kidney Disease (Binary),False,0.2,1,decision_tree,1.0,1.0,1.0,,,,,1.0,,
+ckd_risk,Risk Factor Prediction of Chronic Kidney Disease (Binary),False,0.2,1,knn,1.0,1.0,0.95,,,,,,3.0,uniform
+ckd_risk,Risk Factor Prediction of Chronic Kidney Disease (Binary),False,0.2,2,log_reg,1.0,1.0,0.9625,0.01,l2,liblinear,,,,
+ckd_risk,Risk Factor Prediction of Chronic Kidney Disease (Binary),False,0.2,2,decision_tree,1.0,1.0,1.0,,,,,1.0,,
+ckd_risk,Risk Factor Prediction of Chronic Kidney Disease (Binary),False,0.2,2,knn,1.0,0.9249084249084248,0.9375,,,,,,3.0,uniform
+ckd_risk,Risk Factor Prediction of Chronic Kidney Disease (Binary),False,0.2,3,log_reg,1.0,1.0,0.9875,0.1,l2,liblinear,,,,
+ckd_risk,Risk Factor Prediction of Chronic Kidney Disease (Binary),False,0.2,3,decision_tree,1.0,1.0,1.0,,,,,1.0,,
+ckd_risk,Risk Factor Prediction of Chronic Kidney Disease (Binary),False,0.2,3,knn,0.925,0.8717948717948718,0.95625,,,,,,3.0,uniform
+ckd_risk,Risk Factor Prediction of Chronic Kidney Disease (Binary),False,0.5,1,log_reg,1.0,1.0,0.99,0.01,l2,liblinear,,,,
+ckd_risk,Risk Factor Prediction of Chronic Kidney Disease (Binary),False,0.5,1,decision_tree,1.0,1.0,1.0,,,,,1.0,,
+ckd_risk,Risk Factor Prediction of Chronic Kidney Disease (Binary),False,0.5,1,knn,0.99,0.98989898989899,0.99,,,,,,3.0,uniform
+ckd_risk,Risk Factor Prediction of Chronic Kidney Disease (Binary),False,0.5,2,log_reg,1.0,1.0,1.0,0.1,l2,liblinear,,,,
+ckd_risk,Risk Factor Prediction of Chronic Kidney Disease (Binary),False,0.5,2,decision_tree,1.0,1.0,1.0,,,,,1.0,,
+ckd_risk,Risk Factor Prediction of Chronic Kidney Disease (Binary),False,0.5,2,knn,1.0,0.98989898989899,0.99,,,,,,3.0,uniform
+ckd_risk,Risk Factor Prediction of Chronic Kidney Disease (Binary),False,0.5,3,log_reg,1.0,1.0,1.0,1.0,l2,liblinear,,,,
+ckd_risk,Risk Factor Prediction of Chronic Kidney Disease (Binary),False,0.5,3,decision_tree,1.0,1.0,1.0,,,,,1.0,,
+ckd_risk,Risk Factor Prediction of Chronic Kidney Disease (Binary),False,0.5,3,knn,1.0,0.9705882352941176,1.0,,,,,,3.0,uniform
+ckd_risk,Risk Factor Prediction of Chronic Kidney Disease (Binary),False,0.8,1,log_reg,1.0,1.0,1.0,0.1,l2,liblinear,,,,
+ckd_risk,Risk Factor Prediction of Chronic Kidney Disease (Binary),False,0.8,1,decision_tree,1.0,1.0,1.0,,,,,1.0,,
+ckd_risk,Risk Factor Prediction of Chronic Kidney Disease (Binary),False,0.8,1,knn,1.0,1.0,1.0,,,,,,3.0,uniform
+ckd_risk,Risk Factor Prediction of Chronic Kidney Disease (Binary),False,0.8,2,log_reg,1.0,1.0,1.0,0.1,l2,liblinear,,,,
+ckd_risk,Risk Factor Prediction of Chronic Kidney Disease (Binary),False,0.8,2,decision_tree,1.0,1.0,1.0,,,,,1.0,,
+ckd_risk,Risk Factor Prediction of Chronic Kidney Disease (Binary),False,0.8,2,knn,1.0,1.0,1.0,,,,,,3.0,uniform
+ckd_risk,Risk Factor Prediction of Chronic Kidney Disease (Binary),False,0.8,3,log_reg,1.0,1.0,1.0,0.1,l2,liblinear,,,,
+ckd_risk,Risk Factor Prediction of Chronic Kidney Disease (Binary),False,0.8,3,decision_tree,1.0,1.0,1.0,,,,,1.0,,
+ckd_risk,Risk Factor Prediction of Chronic Kidney Disease (Binary),False,0.8,3,knn,1.0,0.9937106918238993,1.0,,,,,,3.0,uniform
 shuttle,Statlog Shuttle (1 vs Others),False,0.2,1,log_reg,0.9655,0.965399989309069,0.96755,10.0,l2,liblinear,,,,
 shuttle,Statlog Shuttle (1 vs Others),False,0.2,1,decision_tree,0.9978,0.9973999499530036,0.998,,,,10.0,10.0,,
 shuttle,Statlog Shuttle (1 vs Others),False,0.2,1,knn,0.9992,0.9970999199500034,0.997475,,,,,,11.0,distance
